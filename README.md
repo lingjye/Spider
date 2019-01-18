@@ -5,20 +5,18 @@
 
 主要商品信息如下:
 ```
-#商品名称
-'title':item['title'],
-#商品链接
-'href':item['href'],
-'img':item['img'],
-'tag':item['tag'],
-'city':item['city'],
-'quality':item['quality'],
-'price':item['price'],
-'watch_count':item['watch_count'],
-'message_count':item['message_count'],
-'collect_count':item['collect_count'],
-'post_time':item['post_time'],
-'add_time':datetime.datetime.now().strftime('%y%m%dT%H%M%S')
+'title':item['title'],#商品名称
+'href':item['href'],#商品链接
+'img':item['img'],#商品图片
+'tag':item['tag'],#商品标签
+'city':item['city'],#发布城市
+'quality':item['quality'],#商品成色
+'price':item['price'],#商品价格
+'watch_count':item['watch_count'],#商品被浏览次数
+'message_count':item['message_count'],#商品留言数量
+'collect_count':item['collect_count'],#商品被收藏次数
+'post_time':item['post_time'],#商品发布时间
+'add_time':datetime.datetime.now().strftime('%y%m%dT%H%M%S'), #商品被爬取时间
 ```
 数据入库方式:
 ```
