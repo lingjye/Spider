@@ -36,7 +36,7 @@ duplicate_scrapy_test 是在Pycharm下创建的HTML5 Boilerplate工程, 用来�
 如要爬取所有二手数据, 请修改fengniaospider.py中的parse函数,如下:
 ```
 #page+1, 代表要爬取的所有页码, 示例中为(1, 30)
-for i in range(1, (1, page + 1):
+for i in range(1, page + 1):
     url = start_url + 'add-1_%d.html' % (i)
     yield Request(url=url, callback=self.parse_content)
 ```
